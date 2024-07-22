@@ -1,0 +1,53 @@
+.favorite-icon {
+  width: 16px;
+  height: 16px;
+}
+
+:root {
+  --bs-border-color: #9c71aa;
+  --bs-card-cap-bg: #9c71aa;
+  --bs-border-color-tranlucent: rgb(156, 113, 170);
+}
+
+.card {
+  border-color: #9c71aa !important;
+}
+
+.bg-dark {
+  background-color: #9c71aa !important;
+  --bs-navbar-color: #200f0c;
+}
+
+.navbar-dark {
+  --bs-navbar-active-color: #200f0c;
+}
+
+.nav-link.active {
+  font-weight: bold !important;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #9c71aa;
+  background-color: #200f0c;
+}
+
+.card-footer {
+  color: #200f0c;
+  background-color: #9c71aa;
+}
+
+.btn-danger {
+  --bs-btn-bg: #9c71aa;
+  --bs-btn-border-color: #9c71aa;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
